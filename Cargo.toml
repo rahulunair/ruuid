@@ -1,0 +1,14 @@
+[package]
+name = "ruuid"
+version = "0.1.0"
+authors = ["unrahul <rahulunair@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "ruuid"
+crate-type = ["cdylib"]
+
+
+[dependencies]
+pyo3 = { version = "0.13.2", features = ["extension-module"] }
+uuid = { version = "0.8.2", features = ["serde", "v4"] }
