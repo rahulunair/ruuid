@@ -35,5 +35,5 @@ from ruuid import uuid4
 from uuid import uuid4
 
 %timeit uuid4()
-```
 1.1 µs ± 2.91 ns per loop (mean ± std. dev. of 7 runs, 1000000 loops each)
+```
