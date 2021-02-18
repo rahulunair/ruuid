@@ -1,0 +1,10 @@
+[build-system]
+requires = ["maturin"]
+build-backend = "maturin"
+
+[tool.maturin]
+bindings = "cffi"
+manylinux = "on"
+
+[tool.maturin.dependencies]
+python = "^3.6"

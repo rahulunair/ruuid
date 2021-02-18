@@ -14,6 +14,6 @@ Eg.:
 """
 from __future__ import absolute_import
 
-from .ruuid import uuid4
+from ruuid.ruuid import uuid4
 
 __all__ = ['uuid4']
