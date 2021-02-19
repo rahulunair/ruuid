@@ -10,7 +10,7 @@ of Rust's UUID library.
 
 
 ```bash
-pip3 install ruuid==0.2.2 --force --no-cache
+pip3 install ruuid==0.3.0 --force --no-cache
 ```
 
 ### Usage:
