@@ -1,7 +1,7 @@
 ## ruuid
 
 A fast UUID generator for Python built using Rust. Its a simple wrapper on top
-of Rust's UUID library.
+of Rust's [UUID](https://docs.rs/uuid/0.5.1/uuid/index.html) crate.
 
 
 ## How to use?
