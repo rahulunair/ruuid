@@ -15,5 +15,5 @@ crate-type = ["cdylib"]
 
 
 [dependencies]
-pyo3 = { version = "0.13.2", features = ["extension-module"] }
+pyo3 = { version = "0.13.2", features = ["abi3-py36", "extension-module"] }
 uuid = { version = "0.8.2", features = ["serde", "v4"] }
