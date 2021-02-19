@@ -1,6 +1,6 @@
 [package]
 name = "ruuid"
-version = "0.2.2"
+version = "0.3.0"
 authors = ["unrahul <rahulunair@gmail.com>"]
 edition = "2018"
 description = "A fast UUID generator for Python using Rust"
