@@ -14,6 +14,10 @@ Eg.:
 """
 from __future__ import absolute_import
 
+from ruuid.ruuid import hyphenated
+from ruuid.ruuid import nil
+from ruuid.ruuid import simple
+from ruuid.ruuid import urn
 from ruuid.ruuid import uuid4
 
-__all__ = ['uuid4']
+__all__ = ["hyphenated", "nil", "simple", "urn", "uuid4"]
