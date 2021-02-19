@@ -2,10 +2,9 @@ use pyo3::prelude::*;
 use uuid::Uuid;
 
 // This module provides immutable a Universally Unique
-// IDentifier (UUID) using function uuid4(),
-// for generating version 4  UUID as specified in RFC 4122.
-// If all you want is a unique ID, call
-// uuid4() to create a random UUID.
+// Identifier (UUID) using functions uuid4(),simple(), urn(),
+// and hyphenated() for generating version 4  UUID as specified in RFC 4122.
+// If all you want is a unique ID, call uuid4() to create a random UUID.
 #[pymodule(ruuid)]
 fn ruuid(_py: Python, m: &PyModule) -> PyResult<()> {
     #[pyfn(m, "nil")]
